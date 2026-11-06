@@ -37,17 +37,10 @@
 - [SKILL.md](SKILL.md)：模型执行规范。
 - [价值定位方法指南](references/methods.md)：比较候选方向、填写定位卡和设计试用时读取，包含决策规则、模板、虚构演示和验收边界。
 
-## 独立仓库与安装
+## 获取与安装
 
-仓库：[lany-value-positioning-skill](https://github.com/LanyXiaosheng/lany-value-positioning-skill)。独立仓库根目录即技能目录，包含 `SKILL.md`、本说明及 `references/`。
+本技能已包含在当前合集。独立仓库暂受GitHub创建限流影响，尚未发布。
 
-确认目标目录不存在后，可在未设置 `CODEX_HOME` 的默认环境下安装：
+先获取[技能合集](https://github.com/LanyXiaosheng/lany-creator-skills)，再将 `skills/lany-value-positioning-skill` 目录复制到 `$CODEX_HOME/skills`；未设置时通常为 `~/.codex/skills`。同名目录先比较或备份，不直接覆盖。
 
-```bash
-mkdir -p ~/.codex/skills
-git clone https://github.com/LanyXiaosheng/lany-value-positioning-skill.git ~/.codex/skills/lany-value-positioning-skill
-```
-
-已设置 `CODEX_HOME` 时，将目标改为该目录下的 `skills/lany-value-positioning-skill`。已有同名技能时先比较或备份，不覆盖。客户端发现技能后，使用 `$lany-value-positioning-skill` 调用。
-
-方法指南随本仓库保存和维护。浏览其他技能可进入[合集](https://github.com/LanyXiaosheng/lany-creator-skills)。
+客户端发现后使用 `$lany-value-positioning-skill` 调用。本地方法指南已随目录保存，无需访问原文网站。

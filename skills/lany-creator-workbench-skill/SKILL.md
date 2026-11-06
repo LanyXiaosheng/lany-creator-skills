@@ -15,19 +15,19 @@ description: Lany 创作者工作台总入口。用户调用本工具箱、希�
 
 ## 选路
 
-根据下表选择对应技能，不一次加载全部技能。优先读取本地同级目录 `../技能名/SKILL.md`；表中链接指向独立公开仓库，供浏览和获取。若本地缺失，只有实际读取到对应文件后才按该技能执行，不把链接存在当成已经安装。
+根据下表选择对应技能，不一次加载全部技能。优先读取本地同级目录 `../技能名/SKILL.md`；表中链接指向本合集的同级技能目录。若本地缺失，只有实际读取到对应文件后才按该技能执行，不把链接存在当成已经安装。
 
 | 当前问题或产物 | 读取技能 | 判断边界 |
 | --- | --- | --- |
-| 面向谁、解决什么问题、凭什么值得信任 | [价值定位](https://github.com/LanyXiaosheng/lany-value-positioning-skill/blob/main/SKILL.md) | 定位假设与证据，不虚构市场结论 |
-| 从一件小事获得真实付费反馈 | [小生意验证](https://github.com/LanyXiaosheng/lany-small-bet-business-skill/blob/main/SKILL.md) | 交付、报价假设、小规模验证，不承诺收益 |
-| 长期维护互惠关系、兑现价值 | [信任关系](https://github.com/LanyXiaosheng/lany-trust-relationship-skill/blob/main/SKILL.md) | 提供行动建议，不自动联系别人 |
-| 把原始素材形成可调用的认识 | [洞见卡](https://github.com/LanyXiaosheng/lany-insight-card-skill/blob/main/SKILL.md) | 来源、边界和检验方法 |
-| 读书学习要解决当前实际项目问题 | [项目式学习](https://github.com/LanyXiaosheng/lany-project-learning-skill/blob/main/SKILL.md) | 项目相关的学习产物与实践方案 |
-| 笔记调用不起来，想建立运行中的知识库 | [知识工作流](https://github.com/LanyXiaosheng/lany-knowledge-workflow-skill/blob/main/SKILL.md) | 适配现有目录，按当前授权落盘 |
-| 已有经历、观点或素材，要能拍的口播 | [短视频脚本](https://github.com/LanyXiaosheng/lany-short-video-script-skill/blob/main/SKILL.md) | 素材支持的表达，不代造经历 |
-| 从对标中学会起作用的方法 | [内容拆解迁移](https://github.com/LanyXiaosheng/lany-content-remix-skill/blob/main/SKILL.md) | 分开结构观察与心理假设 |
-| 持续创作但无法判断该改哪里 | [内容实验](https://github.com/LanyXiaosheng/lany-content-experiment-skill/blob/main/SKILL.md) | 下一轮可判断试验，不把相关性当因果 |
+| 面向谁、解决什么问题、凭什么值得信任 | [价值定位](../lany-value-positioning-skill/SKILL.md) | 定位假设与证据，不虚构市场结论 |
+| 从一件小事获得真实付费反馈 | [小生意验证](../lany-small-bet-business-skill/SKILL.md) | 交付、报价假设、小规模验证，不承诺收益 |
+| 长期维护互惠关系、兑现价值 | [信任关系](../lany-trust-relationship-skill/SKILL.md) | 提供行动建议，不自动联系别人 |
+| 把原始素材形成可调用的认识 | [洞见卡](../lany-insight-card-skill/SKILL.md) | 来源、边界和检验方法 |
+| 读书学习要解决当前实际项目问题 | [项目式学习](../lany-project-learning-skill/SKILL.md) | 项目相关的学习产物与实践方案 |
+| 笔记调用不起来，想建立运行中的知识库 | [知识工作流](../lany-knowledge-workflow-skill/SKILL.md) | 适配现有目录，按当前授权落盘 |
+| 已有经历、观点或素材，要能拍的口播 | [短视频脚本](../lany-short-video-script-skill/SKILL.md) | 素材支持的表达，不代造经历 |
+| 从对标中学会起作用的方法 | [内容拆解迁移](../lany-content-remix-skill/SKILL.md) | 分开结构观察与心理假设 |
+| 持续创作但无法判断该改哪里 | [内容实验](../lany-content-experiment-skill/SKILL.md) | 下一轮可判断试验，不把相关性当因果 |
 
 ## 串联时保留证据
 
