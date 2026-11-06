@@ -34,4 +34,19 @@
 
 想研究别人的视频为什么有效，用 `lany-content-remix-skill`；想根据发布数据决定下一轮改什么，用 `lany-content-experiment-skill`。本技能只负责表达成品，不承诺爆款、涨粉或收入。
 
-依据见 [来源与提炼说明](references/sources.md)。
+需要自行整理材料或检查稿件时，阅读 [工作指南](references/methods.md)：包含可填写工作表、方法判断、虚构练习和验收规则。
+
+## 独立仓库与安装
+
+仓库：[lany-short-video-script-skill](https://github.com/LanyXiaosheng/lany-short-video-script-skill)。独立仓库根目录即技能目录，包含 `SKILL.md`、本说明及 `references/`。
+
+确认目标目录不存在后，可在未设置 `CODEX_HOME` 的默认环境下安装：
+
+```bash
+mkdir -p ~/.codex/skills
+git clone https://github.com/LanyXiaosheng/lany-short-video-script-skill.git ~/.codex/skills/lany-short-video-script-skill
+```
+
+已设置 `CODEX_HOME` 时，将目标改为该目录下的 `skills/lany-short-video-script-skill`。已有同名技能时先比较或备份，不覆盖。客户端发现技能后，使用 `$lany-short-video-script-skill` 调用。
+
+方法指南随本仓库保存和维护。浏览其他技能可进入[合集](https://github.com/LanyXiaosheng/lany-creator-skills)。

@@ -80,5 +80,5 @@ description: 将真实经历、语音转录或已有知识素材写成可拍摄�
 - 故事的变化是否真实，是否错误归因为单一原因？
 - “可拍”与“已拍”“估时”与“实测”是否分清？
 
-来源与删改依据见 [references/sources.md](references/sources.md)，只有需要追溯方法时再读取。
+需要整理事实、选择表达主线或制作镜头方案时，读取 [工作指南](references/methods.md)，其中包含工作表、完整虚构练习与验收方法。
 面向使用者的完整例子见 [README.md](README.md)。

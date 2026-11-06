@@ -29,7 +29,22 @@
 
 ## 边界
 
-不把赠予当人情债；不以联系次数衡量信任；不把付费当交付完成；低频业务无需复购。作者的收入故事不代表这套方法的预期效果。
+不把赠予当人情债；不以联系次数衡量信任；不把付费当交付完成；低频业务无需复购。本方法不保证关系改善、复购或收益。
 
 - [执行规范](SKILL.md)
-- [方法来源](references/sources.md)
+- [价值赠予与交付回访方法指南](references/methods.md)：需要制作礼物、安排回访与核对兑现时读取，包含工作模板、虚构演示和停止规则。
+
+## 独立仓库与安装
+
+仓库：[lany-trust-relationship-skill](https://github.com/LanyXiaosheng/lany-trust-relationship-skill)。独立仓库根目录即技能目录，包含 `SKILL.md`、本说明及 `references/`。
+
+确认目标目录不存在后，可在未设置 `CODEX_HOME` 的默认环境下安装：
+
+```bash
+mkdir -p ~/.codex/skills
+git clone https://github.com/LanyXiaosheng/lany-trust-relationship-skill.git ~/.codex/skills/lany-trust-relationship-skill
+```
+
+已设置 `CODEX_HOME` 时，将目标改为该目录下的 `skills/lany-trust-relationship-skill`。已有同名技能时先比较或备份，不覆盖。客户端发现技能后，使用 `$lany-trust-relationship-skill` 调用。
+
+方法指南随本仓库保存和维护。浏览其他技能可进入[合集](https://github.com/LanyXiaosheng/lany-creator-skills)。

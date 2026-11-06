@@ -35,4 +35,19 @@
 早期免费可以测可用性，但不能直接证明支付意愿；收费可以测特定价格下的选择，但熟人支持不能等同自然需求。低频服务无需硬做复购或社群。
 
 - [执行规范](SKILL.md)
-- [来源与阈值处理](references/sources.md)
+- [小规模业务验证方法指南](references/methods.md)：确定未知项、写交付范围和复盘断点时读取，提供模板、虚构演示与验收条件。
+
+## 独立仓库与安装
+
+仓库：[lany-small-bet-business-skill](https://github.com/LanyXiaosheng/lany-small-bet-business-skill)。独立仓库根目录即技能目录，包含 `SKILL.md`、本说明及 `references/`。
+
+确认目标目录不存在后，可在未设置 `CODEX_HOME` 的默认环境下安装：
+
+```bash
+mkdir -p ~/.codex/skills
+git clone https://github.com/LanyXiaosheng/lany-small-bet-business-skill.git ~/.codex/skills/lany-small-bet-business-skill
+```
+
+已设置 `CODEX_HOME` 时，将目标改为该目录下的 `skills/lany-small-bet-business-skill`。已有同名技能时先比较或备份，不覆盖。客户端发现技能后，使用 `$lany-small-bet-business-skill` 调用。
+
+方法指南随本仓库保存和维护。浏览其他技能可进入[合集](https://github.com/LanyXiaosheng/lany-creator-skills)。

@@ -66,4 +66,4 @@ description: 将具体经验、读书片段或已有笔记提炼成有来源、�
 ## 补充材料
 
 具体调用示例见 [README.md](README.md)。
-追溯方法出处和删改理由时读 [references/sources.md](references/sources.md)。
+需要判断拆卡粒度、补机制、设计反例或修订旧卡时，读取 [references/methods.md](references/methods.md)，按其中的决策规则、模板和实例推进。

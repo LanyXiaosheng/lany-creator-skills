@@ -86,5 +86,5 @@ description: 拆解对标视频或文章的受众、代入场景、信息结构�
 是否把人群、场景与制作能力变化对结果的影响写清？
 有多少结论只是文本分析，是否错误声称得到后台数据验证？
 
-具体来源及对“像素级复刻”的收窄见 [references/sources.md](references/sources.md)。
+需要判断对标、抽取表达机制或重建迁移稿时，读取 [工作指南](references/methods.md)，其中包含节点分析、迁移模板与完整虚构练习。
 使用实例见 [README.md](README.md)。

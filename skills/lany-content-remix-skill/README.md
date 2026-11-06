@@ -33,4 +33,19 @@
 
 本技能不保证原作流量可以复制，也不会把他人的经历改成你的自述。需要新脚本的口语打磨可用 `lany-short-video-script-skill`；发布后复盘可用 `lany-content-experiment-skill`。
 
-[查看来源与删改说明](references/sources.md)
+需要进一步执行或复盘时，阅读 [工作指南](references/methods.md)：包含判断规则、可填写模板、完整虚构练习与方法边界。
+
+## 独立仓库与安装
+
+仓库：[lany-content-remix-skill](https://github.com/LanyXiaosheng/lany-content-remix-skill)。独立仓库根目录即技能目录，包含 `SKILL.md`、本说明及 `references/`。
+
+确认目标目录不存在后，可在未设置 `CODEX_HOME` 的默认环境下安装：
+
+```bash
+mkdir -p ~/.codex/skills
+git clone https://github.com/LanyXiaosheng/lany-content-remix-skill.git ~/.codex/skills/lany-content-remix-skill
+```
+
+已设置 `CODEX_HOME` 时，将目标改为该目录下的 `skills/lany-content-remix-skill`。已有同名技能时先比较或备份，不覆盖。客户端发现技能后，使用 `$lany-content-remix-skill` 调用。
+
+方法指南随本仓库保存和维护。浏览其他技能可进入[合集](https://github.com/LanyXiaosheng/lany-creator-skills)。

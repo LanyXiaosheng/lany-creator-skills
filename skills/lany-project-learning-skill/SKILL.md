@@ -73,4 +73,4 @@ description: 围绕正在做的项目或明确能力缺口，阅读所给书籍�
 ## 补充材料
 
 使用范例见 [README.md](README.md)。
-需核对来源或三块法的改写时读 [references/sources.md](references/sources.md)。
+需要选择学习单元、拆解参考作品或设计实践与复盘时，读取 [references/methods.md](references/methods.md)，按其中的决策规则、模板和实例推进。
